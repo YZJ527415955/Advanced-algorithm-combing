@@ -35,23 +35,23 @@
 
 **平方损失：**
 
-![1565261896375](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565261896375.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565261896375.png)
 
-梯度为：![1565262164610](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565262164610.png)
+梯度为：![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565262164610.png)
 
 ps:对较大的偏差有很强的惩罚，并相对忽略较小的偏差。
 
 **绝对值损失的定义，及其梯度：**
 
-![1565262214622](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565262214622.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565262214622.png)
 
 ps:使用绝对值损失，一般比平方损失更加稳健。
 
 **Huber损失：**
 
-![1565262479108](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565262479108.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565262479108.png)
 
-![1565263145612](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565263145612.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565263145612.png)
 
 从图和公式可以看出，它融合了平方损失和绝对值损失。当偏差较小时，采用平方差损失；当偏差较大时，采用绝对值损失；而参数$\delta$就是用于控制偏差的临界值的。
 
@@ -61,11 +61,11 @@ ps:使用绝对值损失，一般比平方损失更加稳健。
 
 二分类和多分类采用对数损失函数(Log-Likehood Loss)，这种损失函数的目的是最大化预测值为真实值的概率。
 
-![1565326742015](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565326742015.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565326742015.png)
 
-![1565326775349](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565326775349.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565326775349.png)
 
-![1565326958580](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565326958580.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565326958580.png)
 
 
 
@@ -73,9 +73,9 @@ ps:使用绝对值损失，一般比平方损失更加稳健。
 
 两个方面入手：弱算法的个数M，以及收缩率v。
 
-![1565327138823](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565327138823.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565327138823.png)
 
-![1565327181117](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565327181117.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565327181117.png)
 
 #### 7、优缺点
 
