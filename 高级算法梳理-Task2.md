@@ -27,7 +27,7 @@
 
 #### 3、损失函数
 
-![1565260418372](D:\workspace\Markdown文档\高级算法梳理\高级算法梳理-Task2.assets\1565260418372.png)
+![image](https://github.com/YZJ527415955/Advanced-algorithm-combing/blob/master/photo_task2/1565260418372.png)
 
 #### 4、回归
 
